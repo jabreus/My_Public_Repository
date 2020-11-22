@@ -1,0 +1,45 @@
+<html>
+
+    <head>
+	
+        <title>My WebPage</title>
+		
+		<!-- Esto es para redireccionar a otra pagina a los 0 segundos de cargar esta pagina actual
+        <META HTTP-EQUIV="REFRESH" CONTENT="0;URL=http://www.facebook.com">
+		-->
+		
+        <style>
+            h1 {
+                color: gold;
+            }
+        </style>
+
+        <script type="text/javascript" src="ScripExample.js"></script>
+
+    </head>
+
+    <body>
+        <h1>Hola Javier</h1>
+        </p>
+        <h1>Links:</h1>
+
+        <ul>
+            <li><a href="http://www.facebook.com">Facebook</a>
+                <p>
+            <li><a href="http://www.google.com">Google</a>
+                <p>
+            <li><a href="http://www.pinterest.com">Pinterest</a>
+                <p>
+            <li><a href="hola.html">Hola</a>
+                <p>
+        </ul>
+
+        <button onclick="hello()">Click here</button>
+
+        <img id="myImage" src="D:\TEMPORAL\paquete\Breaking Surface [2020] [Castellano] [929,04 Mb]\Breaking Surface [2020] [Castellano].jpg" onmouseover="moveRight()" onmouseout="stop();"/>
+        <p>Click button below to move the image to right</p>
+        <input type="button" value="Click" onclick="moveRight();"/>
+        <input type="button" value="Stop" onclick="stop();" />
+    </body>
+
+</html>
